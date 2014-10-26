@@ -1,0 +1,180 @@
+\hypertarget{classBall}{\section{\-Ball \-Class \-Reference}
+\label{classBall}\index{\-Ball@{\-Ball}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classBall_a397adca6e1250bd60283f10b767519dc}{\-Ball} (double x, double y, double r, double a, double b)
+\item 
+int \hyperlink{classBall_a0f4375adc33802bce14335ae51b4b590}{get\-Tipo} ()
+\item 
+void \hyperlink{classBall_ad09271738076c152d096e3b01f17db38}{set\-Tipo} (int tipo)
+\item 
+void \hyperlink{classBall_a1e924ceceadecb876124b9b4a6ae9234}{set\-R} (double)
+\item 
+double \hyperlink{classBall_af4d11372f2bbc663a2beea5b023e28bf}{get\-R} ()
+\item 
+void \hyperlink{classBall_a881c25c6aa04c635020f43283e5ecc75}{set\-Posicao} (double, double)
+\item 
+void \hyperlink{classBall_ad6f2d5c2e00b3165ad872005dac55730}{set\-Posicao} (\hyperlink{classVetor}{\-Vetor} v)
+\item 
+\hyperlink{classVetor}{\-Vetor} \hyperlink{classBall_a0b1f6d18c48702b20cd71f988408e377}{get\-Velocidade} ()
+\item 
+\hyperlink{classVetor}{\-Vetor} \hyperlink{classBall_aec6a24e92df23d237cdc11ad4619a96d}{get\-Posicao} ()
+\item 
+void \hyperlink{classBall_aa9eee311951e8edc3dddf4dd0852c7ef}{set\-Velocidade} (\hyperlink{classVetor}{\-Vetor} v)
+\item 
+void \hyperlink{classBall_a8faf3c86f2c9d2d6ec2f3f36aecdc155}{set\-Velocidade} (double x, double y)
+\item 
+\hypertarget{classBall_a061c257f2d562aa2a8761a919a2aa5ab}{void {\bfseries desenha} ()}\label{classBall_a061c257f2d562aa2a8761a919a2aa5ab}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classBall_ab0b984ed19efa6999e6d4064cfa26f9c}{int {\bfseries tipo}}\label{classBall_ab0b984ed19efa6999e6d4064cfa26f9c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classBall_a397adca6e1250bd60283f10b767519dc}{\index{\-Ball@{\-Ball}!\-Ball@{\-Ball}}
+\index{\-Ball@{\-Ball}!Ball@{\-Ball}}
+\subsubsection[{\-Ball}]{\setlength{\rightskip}{0pt plus 5cm}\-Ball\-::\-Ball (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{r, }
+\item[{double}]{a, }
+\item[{double}]{b}
+\end{DoxyParamCaption}
+)}}\label{classBall_a397adca6e1250bd60283f10b767519dc}
+\-Construtor que configura um objeto da classe \hyperlink{classBall}{\-Ball} dada uma posição (x, y), o raio e o vetor velocidade (a, b).
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em posição} & (x, y), raio r, e o vetor velocidade (a, b). \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classBall_aec6a24e92df23d237cdc11ad4619a96d}{\index{\-Ball@{\-Ball}!get\-Posicao@{get\-Posicao}}
+\index{get\-Posicao@{get\-Posicao}!Ball@{\-Ball}}
+\subsubsection[{get\-Posicao}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Vetor} {\bf \-Ball\-::get\-Posicao} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classBall_aec6a24e92df23d237cdc11ad4619a96d}
+\-Retorna a posição da bola \begin{DoxyReturn}{\-Returns}
+\hyperlink{classVetor}{\-Vetor} p 
+\end{DoxyReturn}
+\hypertarget{classBall_af4d11372f2bbc663a2beea5b023e28bf}{\index{\-Ball@{\-Ball}!get\-R@{get\-R}}
+\index{get\-R@{get\-R}!Ball@{\-Ball}}
+\subsubsection[{get\-R}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-Ball\-::get\-R} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classBall_af4d11372f2bbc663a2beea5b023e28bf}
+\-Retorna o raio da bola \begin{DoxyReturn}{\-Returns}
+\-Retorna o raio da bola 
+\end{DoxyReturn}
+\hypertarget{classBall_a0f4375adc33802bce14335ae51b4b590}{\index{\-Ball@{\-Ball}!get\-Tipo@{get\-Tipo}}
+\index{get\-Tipo@{get\-Tipo}!Ball@{\-Ball}}
+\subsubsection[{get\-Tipo}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Ball\-::get\-Tipo} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classBall_a0f4375adc33802bce14335ae51b4b590}
+\-Retorna o tipo da \-Bola
+
+\begin{DoxyReturn}{\-Returns}
+0 se \-Normal, 1 se \-Fogo, 2 se \-Ferro e 3 se \-Fe\-Fo -\/ \-Ferro e \-Fogo 
+\end{DoxyReturn}
+\hypertarget{classBall_a0b1f6d18c48702b20cd71f988408e377}{\index{\-Ball@{\-Ball}!get\-Velocidade@{get\-Velocidade}}
+\index{get\-Velocidade@{get\-Velocidade}!Ball@{\-Ball}}
+\subsubsection[{get\-Velocidade}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Vetor} {\bf \-Ball\-::get\-Velocidade} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classBall_a0b1f6d18c48702b20cd71f988408e377}
+\-Retorna a velocidade da bola \begin{DoxyReturn}{\-Returns}
+\hyperlink{classVetor}{\-Vetor} v 
+\end{DoxyReturn}
+\hypertarget{classBall_a881c25c6aa04c635020f43283e5ecc75}{\index{\-Ball@{\-Ball}!set\-Posicao@{set\-Posicao}}
+\index{set\-Posicao@{set\-Posicao}!Ball@{\-Ball}}
+\subsubsection[{set\-Posicao}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Ball\-::set\-Posicao} (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}\label{classBall_a881c25c6aa04c635020f43283e5ecc75}
+\-Altera a posição da bola 
+\begin{DoxyParams}{\-Parameters}
+{\em x,y} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBall_ad6f2d5c2e00b3165ad872005dac55730}{\index{\-Ball@{\-Ball}!set\-Posicao@{set\-Posicao}}
+\index{set\-Posicao@{set\-Posicao}!Ball@{\-Ball}}
+\subsubsection[{set\-Posicao}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Ball\-::set\-Posicao} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Vetor}}]{v}
+\end{DoxyParamCaption}
+)}}\label{classBall_ad6f2d5c2e00b3165ad872005dac55730}
+\-Altera a posição da bola 
+\begin{DoxyParams}{\-Parameters}
+{\em \hyperlink{classVetor}{\-Vetor}} & v \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBall_a1e924ceceadecb876124b9b4a6ae9234}{\index{\-Ball@{\-Ball}!set\-R@{set\-R}}
+\index{set\-R@{set\-R}!Ball@{\-Ball}}
+\subsubsection[{set\-R}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Ball\-::set\-R} (
+\begin{DoxyParamCaption}
+\item[{double}]{r}
+\end{DoxyParamCaption}
+)}}\label{classBall_a1e924ceceadecb876124b9b4a6ae9234}
+\-Aletera o raio da bola 
+\begin{DoxyParams}{\-Parameters}
+{\em novo} & tipo \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBall_ad09271738076c152d096e3b01f17db38}{\index{\-Ball@{\-Ball}!set\-Tipo@{set\-Tipo}}
+\index{set\-Tipo@{set\-Tipo}!Ball@{\-Ball}}
+\subsubsection[{set\-Tipo}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Ball\-::set\-Tipo} (
+\begin{DoxyParamCaption}
+\item[{int}]{tipo}
+\end{DoxyParamCaption}
+)}}\label{classBall_ad09271738076c152d096e3b01f17db38}
+\-Altera o tipo da \-Bola
+
+0 -\/ \-Normal, 1 -\/ \-Fogo, 2 -\/ \-Ferro e 3 -\/ \-Fe\-Fo (\-Ferro e \-Fogo) \hypertarget{classBall_aa9eee311951e8edc3dddf4dd0852c7ef}{\index{\-Ball@{\-Ball}!set\-Velocidade@{set\-Velocidade}}
+\index{set\-Velocidade@{set\-Velocidade}!Ball@{\-Ball}}
+\subsubsection[{set\-Velocidade}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Ball\-::set\-Velocidade} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Vetor}}]{v}
+\end{DoxyParamCaption}
+)}}\label{classBall_aa9eee311951e8edc3dddf4dd0852c7ef}
+\-Altera a velocidade da bola 
+\begin{DoxyParams}{\-Parameters}
+{\em \hyperlink{classVetor}{\-Vetor}} & v \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBall_a8faf3c86f2c9d2d6ec2f3f36aecdc155}{\index{\-Ball@{\-Ball}!set\-Velocidade@{set\-Velocidade}}
+\index{set\-Velocidade@{set\-Velocidade}!Ball@{\-Ball}}
+\subsubsection[{set\-Velocidade}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Ball\-::set\-Velocidade} (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}}\label{classBall_a8faf3c86f2c9d2d6ec2f3f36aecdc155}
+\-Altera a velocidade da bola 
+\begin{DoxyParams}{\-Parameters}
+{\em x,y} & \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Ball_8h}{\-Ball.\-h}\item 
+\-Ball.\-cpp\end{DoxyCompactItemize}

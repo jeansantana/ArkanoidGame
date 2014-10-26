@@ -1,0 +1,174 @@
+\hypertarget{class_brick}{\section{\-Brick \-Class \-Reference}
+\label{class_brick}\index{\-Brick@{\-Brick}}
+}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_brick_a578027ce8028b8e29c018a654fbb6db7}{\-Brick} (double x, double y, double altura, double comprimento, bool enable, int tipo)
+\item 
+bool \hyperlink{class_brick_adc0468d78a1041d703bd28835f2205d9}{is\-Enable} ()
+\item 
+\hypertarget{class_brick_a334baedfa658293087b2e6b5c7df0180}{void {\bfseries set\-Enable} (bool e)}\label{class_brick_a334baedfa658293087b2e6b5c7df0180}
+
+\item 
+\-Power\-Up\-Tipos \hyperlink{class_brick_a24d61a6c440e7b964c7741ec82400ea7}{get\-Power\-Up} ()
+\item 
+\hypertarget{class_brick_a955a4422c60b8461c984c7b7a5cfc949}{void {\bfseries set\-Power\-U\-P} (\-Power\-Up\-Tipos pw)}\label{class_brick_a955a4422c60b8461c984c7b7a5cfc949}
+
+\item 
+double \hyperlink{class_brick_a3c70b1c24c0195ca8dc459aa29555891}{get\-Altura} ()
+\item 
+double \hyperlink{class_brick_aa7f97b8ef65355a739da1b1f5d529f97}{get\-Comprimento} ()
+\item 
+void \hyperlink{class_brick_af33abfb1b06a5b3488c63dc43f9c53b0}{set\-Comprimento} (double comprimento)
+\item 
+void \hyperlink{class_brick_ac022ec72de65760e8bf28838a7586385}{set\-Altura} (double altura)
+\item 
+int \hyperlink{class_brick_a2d4a47982dd191d68e2872bd8ef3c9f2}{colidiu} (\hyperlink{class_ball}{\-Ball} $\ast$b)
+\item 
+\hypertarget{class_brick_a992a0b5902205c2774a75495bf0fd3ac}{void {\bfseries set\-Posicao} (double x, double y)}\label{class_brick_a992a0b5902205c2774a75495bf0fd3ac}
+
+\item 
+\hypertarget{class_brick_abb1b859e2eb586f0aaa1a47891b7123a}{void {\bfseries set\-Posicao} (\hyperlink{class_vetor}{\-Vetor})}\label{class_brick_abb1b859e2eb586f0aaa1a47891b7123a}
+
+\item 
+\hypertarget{class_brick_a58af58ab61e5780d52dc017cf5471a2b}{\hyperlink{class_vetor}{\-Vetor} {\bfseries get\-Posicao} ()}\label{class_brick_a58af58ab61e5780d52dc017cf5471a2b}
+
+\item 
+\hypertarget{class_brick_a849a7df3b1516fad2108891c9f29d5da}{void {\bfseries desenha} ()}\label{class_brick_a849a7df3b1516fad2108891c9f29d5da}
+
+\item 
+\hypertarget{class_brick_ad6a3eab2ca79d0372412ed337b57e91b}{void {\bfseries set\-Tipo} (int tipo)}\label{class_brick_ad6a3eab2ca79d0372412ed337b57e91b}
+
+\item 
+\hypertarget{class_brick_a9dc76c43b764cf62ea9b8c38b0aba7e7}{\-Tijolo\-Tipos {\bfseries get\-Tipo} ()}\label{class_brick_a9dc76c43b764cf62ea9b8c38b0aba7e7}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_brick_a84e3bc7a2f44f33d4f531e146c548a7a}{\hyperlink{class_power_u_p}{\-Power\-U\-P} {\bfseries power\-Up}}\label{class_brick_a84e3bc7a2f44f33d4f531e146c548a7a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_brick_a578027ce8028b8e29c018a654fbb6db7}{\index{\-Brick@{\-Brick}!\-Brick@{\-Brick}}
+\index{\-Brick@{\-Brick}!Brick@{\-Brick}}
+\subsubsection[{\-Brick}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Brick\-::\-Brick} (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{altura, }
+\item[{double}]{comprimento, }
+\item[{bool}]{enable, }
+\item[{int}]{tipo}
+\end{DoxyParamCaption}
+)}}\label{class_brick_a578027ce8028b8e29c018a654fbb6db7}
+\-Construtor que configura um objeto da classe \hyperlink{class_brick}{\-Brick} dada uma posição (x, y), altura, comprimento, um booleano para informar se o tijolo está habilitado ou não, e um valor inteiro para o tipo do bloco.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em posição} & (x, y), altura, comprimento, enable, tipo \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_brick_a2d4a47982dd191d68e2872bd8ef3c9f2}{\index{\-Brick@{\-Brick}!colidiu@{colidiu}}
+\index{colidiu@{colidiu}!Brick@{\-Brick}}
+\subsubsection[{colidiu}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Brick\-::colidiu} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Ball} $\ast$}]{b}
+\end{DoxyParamCaption}
+)}}\label{class_brick_a2d4a47982dd191d68e2872bd8ef3c9f2}
+\-Teste se o \-Tijolo (\hyperlink{class_brick}{\-Brick}) colidiu com a \-Bola (\hyperlink{class_ball}{\-Ball}) \begin{DoxyReturn}{\-Returns}
+o tipo do bloc \{\-T\-N\-O\-R\-M\-A\-L = 0, \-T\-P\-L\-U\-S = 1, \-T\-F\-I\-X\-O = 2\} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{\-Parameters}
+{\em altura} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_brick_a3c70b1c24c0195ca8dc459aa29555891}{\index{\-Brick@{\-Brick}!get\-Altura@{get\-Altura}}
+\index{get\-Altura@{get\-Altura}!Brick@{\-Brick}}
+\subsubsection[{get\-Altura}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-Brick\-::get\-Altura} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_brick_a3c70b1c24c0195ca8dc459aa29555891}
+\-Retorna a altura do \-Tijolo
+
+\begin{DoxyReturn}{\-Returns}
+altura 
+\end{DoxyReturn}
+\hypertarget{class_brick_aa7f97b8ef65355a739da1b1f5d529f97}{\index{\-Brick@{\-Brick}!get\-Comprimento@{get\-Comprimento}}
+\index{get\-Comprimento@{get\-Comprimento}!Brick@{\-Brick}}
+\subsubsection[{get\-Comprimento}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-Brick\-::get\-Comprimento} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_brick_aa7f97b8ef65355a739da1b1f5d529f97}
+\-Retorna a comprimento do \-Tijolo
+
+\begin{DoxyReturn}{\-Returns}
+comprimento 
+\end{DoxyReturn}
+\hypertarget{class_brick_a24d61a6c440e7b964c7741ec82400ea7}{\index{\-Brick@{\-Brick}!get\-Power\-Up@{get\-Power\-Up}}
+\index{get\-Power\-Up@{get\-Power\-Up}!Brick@{\-Brick}}
+\subsubsection[{get\-Power\-Up}]{\setlength{\rightskip}{0pt plus 5cm}\-Power\-Up\-Tipos {\bf \-Brick\-::get\-Power\-Up} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_brick_a24d61a6c440e7b964c7741ec82400ea7}
+\-Retorna o powerup\-: \-T\-N\-O\-R\-M\-A\-L = 0, \-T\-P\-L\-U\-S = 1, \-T\-F\-I\-X\-O = 2
+
+\begin{DoxyReturn}{\-Returns}
+\-Tijolo\-Tipos 
+\end{DoxyReturn}
+\hypertarget{class_brick_adc0468d78a1041d703bd28835f2205d9}{\index{\-Brick@{\-Brick}!is\-Enable@{is\-Enable}}
+\index{is\-Enable@{is\-Enable}!Brick@{\-Brick}}
+\subsubsection[{is\-Enable}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Brick\-::is\-Enable} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_brick_adc0468d78a1041d703bd28835f2205d9}
+\-Retorna true se está habilitado e false caso contrário
+
+\begin{DoxyReturn}{\-Returns}
+true or false 
+\end{DoxyReturn}
+\hypertarget{class_brick_ac022ec72de65760e8bf28838a7586385}{\index{\-Brick@{\-Brick}!set\-Altura@{set\-Altura}}
+\index{set\-Altura@{set\-Altura}!Brick@{\-Brick}}
+\subsubsection[{set\-Altura}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Brick\-::set\-Altura} (
+\begin{DoxyParamCaption}
+\item[{double}]{altura}
+\end{DoxyParamCaption}
+)}}\label{class_brick_ac022ec72de65760e8bf28838a7586385}
+\-Altera a altura do \-Tijolo
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em altura} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_brick_af33abfb1b06a5b3488c63dc43f9c53b0}{\index{\-Brick@{\-Brick}!set\-Comprimento@{set\-Comprimento}}
+\index{set\-Comprimento@{set\-Comprimento}!Brick@{\-Brick}}
+\subsubsection[{set\-Comprimento}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Brick\-::set\-Comprimento} (
+\begin{DoxyParamCaption}
+\item[{double}]{comprimento}
+\end{DoxyParamCaption}
+)}}\label{class_brick_af33abfb1b06a5b3488c63dc43f9c53b0}
+\-Altera a comprimento do \-Tijolo
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em comprimento} & \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_brick_8h}{\-Brick.\-h}\item 
+\-Brick.\-cpp\end{DoxyCompactItemize}
